@@ -6,4 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class CafeApplicationTests {
 
+    @Test
+    void test123() {
+        System.out.println("🪑📦😄");
+    }
 }
