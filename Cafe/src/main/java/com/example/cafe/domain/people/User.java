@@ -1,11 +1,11 @@
 package com.example.cafe.domain.people;
 
-import lombok.Builder;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
-public class User extends People {
-
-    @Builder
-    public User(String name) {
-        super(name);
-    }
+@Getter
+@AllArgsConstructor
+public class User {
+    private Long id;
+    private String name;
 }

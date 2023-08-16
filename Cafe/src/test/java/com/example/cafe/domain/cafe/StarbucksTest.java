@@ -1,7 +1,5 @@
 package com.example.cafe.domain.cafe;
 
-import com.example.cafe.domain.people.People;
-import com.example.cafe.domain.people.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
