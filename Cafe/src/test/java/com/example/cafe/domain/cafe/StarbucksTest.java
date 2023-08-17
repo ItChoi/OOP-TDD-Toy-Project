@@ -7,13 +7,7 @@ class StarbucksTest {
 
     @BeforeEach
     void beforeEach() {
-        People user1 = User.builder()
-                .name("상현")
-                .build();
 
-        People user2 = User.builder()
-                .name("현상")
-                .build();
     }
 
     @Test

@@ -37,7 +37,8 @@ public class Table {
                     isUseTable = false;
                 }
 
-                useUsers.remove(id);
+                useUsers.remove(userId);
+                user.setEnterCafe(false);
             }
         }
     }

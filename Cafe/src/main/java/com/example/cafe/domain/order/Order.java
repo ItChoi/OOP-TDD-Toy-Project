@@ -4,5 +4,5 @@ import java.util.List;
 
 public class Order {
     private Long id;
-    private List<Long> orders;
+    private List<Menu> orders;
 }

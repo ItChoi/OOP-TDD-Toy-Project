@@ -12,7 +12,7 @@ public class ConsoleUtil {
 
     private static Scanner scanner = getScanner();
 
-    public static String inputStr() {
+    public static String inputStrWithLowerCase() {
         makeNewScannerIfScannerIsClosed();
         return scanner.nextLine();
     }
@@ -32,6 +32,8 @@ public class ConsoleUtil {
             return false;
         }
 
-        return "Q".equals(value.toLowerCase());
+        return "quit".equals(value.toLowerCase());
     }
+
+
 }

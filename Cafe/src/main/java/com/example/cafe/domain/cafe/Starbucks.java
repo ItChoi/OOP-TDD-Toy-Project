@@ -18,9 +18,7 @@ public class Starbucks implements Cafe {
 
     @Override
     public void enter(User user) {
-        boolean isAvailableTable = isAvailableTable();
-        String tableStr = isAvailableTable ? "가능" : "불가능";
-
+        String tableStr = isAvailableTable() ? "가능" : "불가능";
         System.out.println(user.getName() + "님 " + this.storeName + "에 입장했습니다. 테이블 이용이" + tableStr + " 합니다.");
     }
 
